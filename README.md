@@ -5,4 +5,4 @@ Small react app that list employees from a company and is able to search and fil
 ### `yarn start`
 
 Demo<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [https://react-employees.netlify.com/](React Employees) to view it in the browser.

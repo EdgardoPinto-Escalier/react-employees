@@ -3,7 +3,7 @@ import Card from './Card';
 
 const CardList = ({ employees }) => {
   return (
-    <div>
+    <div className='center container pa3'>
       {
         employees.map((user, i) => {
           return (

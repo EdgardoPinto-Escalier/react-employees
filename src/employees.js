@@ -54,5 +54,41 @@ export const employees = [
     username: 'Louise',
     role: 'Marketing Assistant',
     email: 'louise.kent@acme.com'
+  },
+  {
+    id: 8,
+    photo: 'Tom.jpg',
+    name: 'Tom Jackson',
+    username: 'Tommy',
+    role: 'Software Enginner',
+    email: 'louise.kent@acme.com'
+  }, {
+    id: 9,
+    photo: 'Angela.jpg',
+    name: 'Angela Keystone',
+    username: 'Angie',
+    role: 'Online Manager',
+    email: 'angela.keystone@acme.com'
+  }, {
+    id: 10,
+    photo: 'Edward.jpg',
+    name: 'Edward Thomas',
+    username: 'Eddie',
+    role: 'IT Specialist',
+    email: 'edward.thomas@acme.com'
+  }, {
+    id: 11,
+    photo: 'Nicole.jpg',
+    name: 'Nicole Hudson',
+    username: 'Nicole',
+    role: 'Sales Manager',
+    email: 'nicole.hudson@acme.com'
+  }, {
+    id: 12,
+    photo: 'William.jpg',
+    name: 'William Acker',
+    username: 'Will',
+    role: 'Web Developer',
+    email: 'william.acker@acme.com'
   }
 ]

@@ -22,7 +22,7 @@ class App extends Component {
       return employees.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
     })
     return (
-      <div className='tc'>
+      <div className='tc center'>
         <h1>EMPLOYEES</h1>
         <SearchBox searchChange={this.onSearchChange}/>
         <CardList employees={filteredemployees} />

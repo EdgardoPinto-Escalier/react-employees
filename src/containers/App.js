@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import CardList from './CardList';
-import SearchBox from './SearchBox';
-import { employees } from './employees';
+import CardList from '../components/CardList';
+import SearchBox from '../components/SearchBox';
+import { employees } from '../employees';
+import Footer from '../components/Footer';
 
 class App extends Component {
   constructor() {
@@ -26,6 +27,7 @@ class App extends Component {
         <h1>EMPLOYEES</h1>
         <SearchBox searchChange={this.onSearchChange}/>
         <CardList employees={filteredemployees} />
+        <Footer />
       </div>
     );
   }
